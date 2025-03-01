@@ -1,0 +1,44 @@
+<!-- public/index.html: CVE List UI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CVE List</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>CVE List</h1>
+  <div>
+    <label for="resultsPerPage">Results Per Page:</label>
+    <select id="resultsPerPage">
+      <option value="10" selected>10</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+    </select>
+  </div>
+  <div>
+    <table id="cveTable" border="1">
+      <thead>
+        <tr>
+          <th>CVE ID</th>
+          <th>Description</th>
+          <th>Published Date</th>
+          <th>Last Modified Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be populated here -->
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <span>Total Records: <span id="totalRecords">0</span></span>
+  </div>
+  <div>
+    <button id="prevPage">Previous</button>
+    <span>Page: <span id="currentPage">1</span></span>
+    <button id="nextPage">Next</button>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

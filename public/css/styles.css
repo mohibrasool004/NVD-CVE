@@ -1,0 +1,36 @@
+/* public/css/styles.css: Basic styling for the UI */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  
